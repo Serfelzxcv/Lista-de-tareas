@@ -1,0 +1,26 @@
+Este tutorial es del proyecto lista de tareas el cual integra:
+
+    node.js (API)
+    MongoDB (Base de datos)
+
+    react (Interfaz)
+    axios (Solicitudes Http)
+
+Comandos:
+
+-Creamos 2 carpetas (Backend-Frontend)
+
+    En back-end: 
+
+        *npm init -y    ->   Inicia el proyecto en Node.js
+
+        *npm install express mongoose cors   ->  Proporciona utilidades para manejar solicitudes HTTP, rutas, middleware, renderización de vistas, etc.
+
+        -creamos la carpeta models -> Para el modelado de la base de datos
+
+        -creamos routes -> brinda rutas de acceso
+
+    En frontend: 
+
+        *npx create-react-app .    -> app react estructura
+        *npm install axios         -> libreria de comunicacion

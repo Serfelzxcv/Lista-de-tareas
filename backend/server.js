@@ -6,7 +6,7 @@ const taskRoutes = require('./routes/tasks');
 const app = express();
 const PORT = process.env.PORT || 5000;
 
-mongoose.connect('mongodb://localhost:27017/todoapp', {
+mongoose.connect('mongodb://localhost:27017/Lista-Tareas', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
